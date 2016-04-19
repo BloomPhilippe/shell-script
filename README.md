@@ -1,5 +1,6 @@
-# shell-script
-Script shell
+# new_projet.bat
+
+Ce script va générer un nouveau répertoire avec un fichier virtual host et modifier votre fichier hosts
 
 ## Step 1 : Parametrer Apache afin que les virtuals hosts soit dynamique
 
