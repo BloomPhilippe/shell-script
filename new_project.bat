@@ -11,3 +11,5 @@ echo "ServerName $URL" >> httpd-vhosts.conf
 echo 'ErrorLog "c:/wamp64/www/logs/error.log"' >> httpd-vhosts.conf
 echo 'CustomLog "c:/wamp64/www/logs/error.log" common' >> httpd-vhosts.conf
 echo "</VirtualHost>" >> httpd-vhosts.conf
+net stop wampapache64
+net start wampapache64
